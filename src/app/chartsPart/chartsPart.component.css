@@ -1,0 +1,158 @@
+.threeparts {
+  width: 1067px;
+  height: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+.leftpart {
+  border-radius: 9px;
+  border: 0.75px solid rgba(161, 165, 183, 0.5);
+
+  background: #fff;
+  display: flex;
+  width: 519px;
+  height: 90px;
+  flex-shrink: 0;
+
+  justify-content: space-between;
+}
+.middlepart {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px;
+  border-radius: 9px;
+  background: #0771de;
+
+  width: 250.508px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.rightpart {
+  display: flex;
+  border-radius: 9px;
+  border: 0.75px solid rgba(161, 165, 183, 0.5);
+
+  background: #fff;
+  width: 258px;
+  height: 90px;
+  flex-shrink: 0;
+}
+.leftpartofleft {
+  width: 30%;
+  height: 100px;
+}
+.middlepartofleft {
+  width: 30%;
+  height: 80px;
+
+  background-image: url("../../assets/middlechart.png");
+  background-size: cover;
+  margin-top: 5px;
+}
+.rightpartofleft {
+  width: 30%;
+  height: 80px;
+}
+.leftpartofleft p {
+  width: 100%;
+  color: #1c1c28;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Almarai", sans-serif;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.285px;
+  text-align: center;
+}
+.leftpartofleft img {
+  height: 50px;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.rightpartofleft p {
+  color: #1c1c28;
+
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.285px;
+  text-align: center;
+}
+.rightpartofleft img {
+  height: 50px;
+  width: 150px;
+
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.chartimage {
+  width: 30%;
+  height: 50px;
+
+  background-image: url("../../assets/chart.png");
+  background-size: cover;
+  margin-top: 25px;
+}
+.expected {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 60%;
+}
+.expected p {
+  width: 30%px;
+  height: 10px;
+  color: #fff;
+  margin-left: 20px;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  margin-top: 20px;
+}
+.icon {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+.icon img {
+  height: 18px;
+  width: 18px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.chartapex {
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 70px;
+}
+.expectedu p {
+  margin-left: 30px;
+  color: #1c1c28;
+  margin-top: 20px;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.285px;
+}

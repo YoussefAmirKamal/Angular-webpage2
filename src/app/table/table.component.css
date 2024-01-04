@@ -1,0 +1,48 @@
+/* -------------------STYLE OF THE ---------------------- */
+.table {
+  width: 73%;
+  height: 500px;
+  margin-left: 40px;
+  table-layout: fixed;
+}
+.productphoto {
+  display: flex;
+}
+.productphoto img {
+  width: 20%;
+}
+th {
+  text-align: start;
+  height: 50px;
+  color: #85848b;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 190.909% */
+}
+td {
+  text-align: start;
+  color: #1c1c28;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 175% */
+}
+tr {
+  text-align: start;
+  height: 20px;
+}
+
+.phonenumber {
+  color: var(--Font-style-Light, #83899f);
+
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 30px;
+}

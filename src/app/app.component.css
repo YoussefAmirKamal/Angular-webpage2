@@ -1,0 +1,13 @@
+body {
+  height: 1100px;
+  width: 100%;
+  background: #f3f5f7;
+}
+
+.navbar {
+  width: 90%;
+  height: 50px;
+  background-image: url("../assets/navbarr.png");
+  background-size: cover;
+}
+

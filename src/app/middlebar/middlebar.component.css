@@ -1,0 +1,45 @@
+.middlebar {
+  width: 100%;
+  height: 10px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.middlebar input {
+  width: 316px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  background-color: white;
+  margin-right: 30px;
+  margin-left: 380px;
+  border-radius: 5px;
+}
+input.search {
+  fill: #fff;
+
+  stroke-width: 1px;
+  stroke: rgba(146, 161, 173, 0.4);
+  width: 0px;
+  border: 1px solid #e3e3e3;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("../../assets/search.png") no-repeat 13px;
+  background-size: 15px;
+}
+.icon img {
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 8px;
+  margin-left: 8px;
+}

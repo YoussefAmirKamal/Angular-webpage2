@@ -1,0 +1,46 @@
+<div class="table">
+
+  <p-table [style]="{'height' : '10px' } " styleClass="p-datatable-sm" [value]="products"
+    [tableStyle]="{ 'min-width': '30rem' }">
+    <ng-template pTemplate="header">
+      <tr style="height: 10px;">
+
+        <th>معدل البيع</th>
+        <th>الخصم</th>
+        <th>الحد الأدني</th>
+        <th>الضريبة %</th>
+        <th>التصنيف</th>
+        <th>حالة المنتج</th>
+        <th>الكمية</th>
+        <th>سعر البيع</th>
+        <th> المنتجات</th>
+        <th> #</th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-product>
+      <tr>
+        <img style="height: 30px; width: 50px;" src="{{product.sellingrate}}" alt="">
+
+        <td>{{ product.discount }}</td>
+        <td>{{ product.minimum }}</td>
+        <td>{{ product.taxes }}</td>
+        <td>{{ product.category }}</td>
+
+        <div class="statimg">
+          <img style="width: 70px;
+          height: 30px;margin-top: 15px;" src="{{product.statimg}}" alt="">
+        </div>
+
+        <td>{{ product.quantity }}</td>
+        <td>{{ product.sellprice }}</td>
+        <div class="productphoto">
+          <td>{{ product.productname }}</td>
+          <img style="height: 25px; width: 20px; margin-left: 5px;" src="{{product.image}}" alt="">
+        </div>
+        <p class="phonenumber">126565958987</p>
+
+        <td>{{ product.hash }}</td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

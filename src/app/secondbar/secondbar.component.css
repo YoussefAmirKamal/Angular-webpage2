@@ -1,0 +1,145 @@
+.fouritems {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+.new {
+  width: 10%;
+}
+.buttonflex {
+  margin-top: 15px;
+  margin-left: 40px;
+  display: flex;
+  height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  background: #0771de;
+  border-radius: 6px;
+  border: 0px solid;
+}
+.buttonflex p {
+  width: 70%;
+  color: var(--Grayscale-Background, #fcfcfc);
+  text-align: center;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 175% */
+}
+.buttonflex img {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+.twoicons {
+  border-radius: 4.5px;
+  border: 0.75px solid rgba(153, 161, 183, 0.3);
+
+  background: #fafcfe;
+  margin-left: 20px;
+  width: 60px;
+  height: 40px;
+  margin-top: 15px;
+  display: flex;
+}
+.twoicons .image1 {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  border-right: 1px solid gray;
+  padding-right: 5px;
+}
+.twoicons .image2 {
+  margin-top: 10px;
+  width: 16px;
+  height: 16px;
+  padding-left: 2px;
+  margin-left: 5px;
+}
+.twowords {
+  display: flex;
+  width: 247px;
+  height: 41px;
+  background-color: aqua;
+  margin-top: 20px;
+  margin-left: 630px;
+  border-radius: 6px 6px 0px 0px;
+  border: 0.75px solid #d8dce4;
+
+  background: #fff;
+}
+.services {
+  display: flex;
+  width: 50%;
+}
+.products {
+  display: flex;
+  width: 50%;
+}
+.services p {
+  width: 70%;
+
+  color: #898995;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 175% */
+  border-right: 1px solid gray;
+  padding-left: 15px;
+}
+.services span {
+  color: #898995;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 7.579px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px; /* 221.667% */
+  margin-top: 15px;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.products p {
+  width: 70%;
+
+  color: #898995;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 175% */
+
+  padding-left: 15px;
+}
+.number {
+  width: 24px;
+  height: 19px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--Primary-Default, #0771de);
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.number span {
+  color: #fff;
+
+  font-family: "Almarai", sans-serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.8px; /* 210% */
+  margin-left: 5px;
+}
